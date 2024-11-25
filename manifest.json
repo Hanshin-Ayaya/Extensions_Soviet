@@ -1,0 +1,16 @@
+{
+    "name": "ソ連国歌再生キット",
+    "version": "1.5",
+    "description": "ソ連国歌がすぐに聞きたい人のために作りました。音声プレイヤー付き。　※実は背景を設定したつもりなのですが、映りません。",
+    "icons": {
+    "16": "icon/16x16.png",
+    "32": "icon/32x32.png",
+    "48": "icon/48x48.png",
+    "128": "icon/128x128.png"
+  },
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "browser_action":{
+    "default_popup":"index.html" //アイコンクリックで表示するHTML
+    }
+}
